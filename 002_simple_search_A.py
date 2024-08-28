@@ -8,7 +8,7 @@ import networkx as nx
 import random
 random.seed(0)
 
-debug = False
+debug = True
 
 def bfs(cur, target, graph):
     queue = deque([[cur]])
